@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ViewPager2</string>
+
+    <string name="title_0">タイトル_0</string>
+    <string name="title_1">タイトル_1</string>
+    <string name="title_2">タイトル_2</string>
+</resources>
