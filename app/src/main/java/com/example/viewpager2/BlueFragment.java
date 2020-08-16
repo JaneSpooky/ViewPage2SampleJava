@@ -33,7 +33,7 @@ public class BlueFragment extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        int index = getArguments() == null ? 0 : getArguments().getInt(KEY_INDEX, 0);
+        int index = getArguments() == null ? 0 : getArguments().getInt(KEY_INDEX);
         view.findViewById(R.id.rootView).setBackgroundColor(ContextCompat.getColor(getActivity(), BACKGROUND_COLORS[index]));
         ((TextView) view.findViewById(R.id.textView)).setText(String.valueOf(index));
     }
